@@ -38,7 +38,7 @@ export default function StudentLogin() {
         className="input font-mono text-base uppercase"
         value={admissionNo}
         onChange={(e) => setAdmissionNo(e.target.value)}
-        placeholder="ADM001"
+        placeholder="ADMISSION NUMBER"
         autoComplete="off"
         autoFocus
         inputMode="text"
